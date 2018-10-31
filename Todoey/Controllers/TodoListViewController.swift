@@ -95,7 +95,7 @@ class TodoListViewController: SwipeTableViewController {
     
     //MARK - TableView Delegate Methods
     
-    //this method identifies the selected cell/
+    //this method identifies the selected cell
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         if let item = todoItems?[indexPath.row] {
